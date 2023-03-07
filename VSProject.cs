@@ -74,7 +74,7 @@ namespace VSProjectСsharp
             Console.InputEncoding = Encoding.UTF8;
             Random randNum = new Random();
 
-            //FunctionHelper.progressBar(0, "Loading", true, 80000);// progressBar(0, "Loading", true, 80000); see in fullscreen
+            FunctionHelper.progressBar(100, "Loading", false, 0);// progressBar(0, "Loading", true, 80000); see in fullscreen
             ManageData manageData = new ManageData();
 
             Player player = null;
